@@ -6,8 +6,6 @@ import cookieParser from 'cookie-parser';
 
 // Importar middlewares
 import { conditionalAuth } from './middlewares/authMiddleware.js';
-import { balanceEnhancementMiddleware } from './middlewares/balanceMiddleware.js';
-
 // Importar rutas
 
 //Dashboard
@@ -42,9 +40,6 @@ app.use(cors(
 
 app.use(cookieParser());
 
-// ✅ Middleware de balance - SE APLICA SIEMPRE, EN PRODUCTION Y DEVELOPMENT
-// Intercepta todas las respuestas JSON y agrega información del balance de Twilio
-app.use(balanceEnhancementMiddleware);
 
 // middleware de logging y auth
 if (NODE_ENV === 'production') {

@@ -58,13 +58,13 @@ export const signIn = async (req, res) => {
 				data: {
 					...user[0],
 					voice_token :  'voicetoken',
-					agent_id : agent
 				},
 				message: 'Usuario encontrado'
 			})
 		}
 
 	}	catch(err){
+		console.log(err);
 		res.status(500).json({
 			data: false,
 			message: 'Error interno del servidor',
