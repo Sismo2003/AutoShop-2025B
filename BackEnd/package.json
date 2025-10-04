@@ -1,0 +1,35 @@
+{
+  "name": "rebate-auto-glass-api",
+  "version": "1.0.0",
+  "description": "API made in express for REBATE AUTO GLASS System",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "type": "module",
+  "author": "sismo2003",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "fs": "^0.0.1-security",
+    "https": "^1.0.0",
+    "jsonwebtoken": "9.0.2",
+    "luxon": "3.6.1",
+    "morgan": "1.10.0",
+    "mysql2": "^3.14.1",
+    "node-xlsx": "^0.24.0",
+    "nodemon": "3.1.10",
+    "socket.io": "^4.8.1",
+    "twilio": "5.7.2",
+    "yup": "1.6.1"
+  },
+  "devDependencies": {
+    "@types/cookie-parser": "^1.4.9",
+    "@types/express": "^5.0.3",
+    "@types/morgan": "^1.9.10"
+  }
+}

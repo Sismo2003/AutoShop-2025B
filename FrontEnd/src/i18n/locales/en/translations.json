@@ -1,0 +1,13 @@
+{
+  "nav": {
+    "dashboards": {
+      "dashboards": "Dashboards",
+      "home": "Home"
+    },
+    "settings": {
+      "settings": "Configuración",
+      "general": "General",
+      "appearance": "Apariencia"
+    }
+  }
+}
